@@ -1,0 +1,99 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+}
+
+.container {
+    background-image: url('path/to/your/background-image.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 15px; 
+    padding: 20px; 
+    margin-top: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar-brand svg {
+    width: 100px;
+    height: auto;
+    max-height: 50px;
+}
+
+.table {
+    background-color: #ffffff;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.table th {
+    text-align: center;
+    background-color: #705C53; 
+    color: white; 
+}
+
+.table td,
+.table th {
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+.btn-primary {
+    background-color: #5b7cfa;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #ff6b6b;
+    border: none;
+}
+
+.img-thumbnail {
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-top: 1px solid #e9ecef;
+}
+
+.modal-content {
+    border-radius: 15px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
